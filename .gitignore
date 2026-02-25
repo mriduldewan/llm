@@ -1,0 +1,36 @@
+# ── Secrets & environment variables ────────────────────────────────────────
+.env
+.env.*
+!.env.example          # keep the template
+
+# ── Python ──────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+.Python
+
+# ── Jupyter ─────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Output / artefacts ──────────────────────────────────────────────────────
+output/*
+!output/.gitkeep
+
+# ── OS noise ────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── IDEs ────────────────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
