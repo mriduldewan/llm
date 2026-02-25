@@ -1,0 +1,8 @@
+# ── Secrets — NEVER commit these ────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── Summariser output (generated at runtime) ────────────────────────────────
+output/*
+!output/.gitkeep
